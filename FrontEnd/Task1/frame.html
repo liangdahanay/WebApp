@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title="Dating"/>
+</head>
+
+<body>
+  <h1>Please Enter Your Details For Our Dating Website!</h1>
+  <form enctype="multipart/form-data" action="http://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method="post">
+
+    <fieldset>
+      <legend>Your Face</legend>
+
+      <label for="imgToUpload">Your Image: </lable>
+      <input type="file" id="imgToUpload" required/>
+      <br>
+      <lable for="preview">Image Preview:</label>
+      <img id="preview"/>
+    </fieldset>
+
+    <fieldset>
+      <legend>Your General Details</legend>
+      <label for="cName">Name:</label>
+      <input type="text" id="cName" required/><br>
+
+      <label for="cGender">Gender:</label>
+      <input type="radio" name="cGender" value="male">Male</input>
+      <input type="radio" name="cGender" value="male">Female</input>
+
+      <label for="cAge">Age:</label>
+
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Your Indicators</legend>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Your Contact Information</legend>
+
+    </fieldset>
+    <input type="submit" value="Submit"/>
+  </form>
+
+</body>
+
+</html>
